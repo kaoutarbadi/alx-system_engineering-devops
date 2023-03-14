@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(('echo $PATH | qrcp -o ":/" wc -l' +1))
+echo $(('echo $PATH | qrep -o ":/" wc -l' +1))
